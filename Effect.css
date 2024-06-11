@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+    justify-content: center;
+    flex-direction: column;
+}
+.conterner{ 
+    width: 100vh;
+    height: 100vh;
+    flex-direction: row;
+
+}

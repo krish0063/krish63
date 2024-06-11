@@ -1,13 +1,24 @@
 
 import "./App.jsx"
-function App(){
-  return(
+import Firebase from "./Firebase"
+// import Home from "./Home.jsx"
+import  Register from "./Register.jsx";
+// import Effect from "./Effect.css"
+// import Login from "./Login.jsx";
+function app(){
+  return (
     <>
-    <div classname="hello">hello</div>
-    </>
+    <div>
+    {/* <Home/> */}
+    <Register/>
+    {/* <Login/>
+    <Effect/> */}
+    <Firebase/>
+ 
+ </div>
+  </>
   )
-    
 }
-export default App;
+export default app;
 
   

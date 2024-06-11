@@ -1,0 +1,23 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getauth} from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA7Fbd4qY8NaFzTDS4fI24QpSliHE4pfCk",
+  databaseURL: "https://krish-1fe43-default-rtdb.firebaseio.com",
+  authDomain: "krish-1fe43.firebaseapp.com",
+  projectId: "krish-1fe43",
+  storageBucket: "krish-1fe43.appspot.com",
+  messagingSenderId: "1053976468369",
+  appId: "1:1053976468369:web:64ed0e436f9f146bd75830",
+  measurementId: "G-E2ZYQMD0ST"
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+ export const auth = getauth(app);
+ export default app
